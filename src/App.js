@@ -1,10 +1,15 @@
+import Header from "./components/Header";
+import { Container } from "./components/styles/Container.styled";
 
-function App() {
+const App = () => {
   return (
-    <div >
-      <h1>Test</h1>
+    <div>
+      <Header />
+      <Container>
+        <h1>Hello World</h1>
+      </Container>
     </div>
   );
-}
+};
 
 export default App;
